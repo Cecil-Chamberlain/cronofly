@@ -1,0 +1,16 @@
+﻿@model Cronofly.Controllers.LinkShortening.LinkShorteningResource
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Link Shortening</h2>
+
+@using (@Html.BeginForm(FormMethod.Post))
+{
+    @Html.ValidationMessageFor(x => x.UrlToShorten)
+    @Html.TextBoxFor(x => x.UrlToShorten)
+    <button type="submit" formmethod="post">Get Short Link</button>
+}
+

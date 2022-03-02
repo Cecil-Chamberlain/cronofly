@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "e2e", "e2e", "{3B7A8F51-6088-41EE-9A57-CAE2DE27DC04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cronofly.AcceptanceTests", "e2e\Cronofly.AcceptanceTests\Cronofly.AcceptanceTests\Cronofly.AcceptanceTests.csproj", "{E3354F6A-61C6-4E90-9B20-803CC1BFC080}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12AC6485-514B-4B6E-B0F4-A9A8DA26FC5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cronofly", "src\Cronofly\Cronofly.csproj", "{408C53D4-F3AC-4E96-89F1-A09EE149DC01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{C669BA1C-3FFA-4BD4-9A1F-CA50B22476B4}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+		build.cake = build.cake
+		docker-compose.yml = docker-compose.yml
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{50641609-1E73-49A2-9E30-9F28C2C4B599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cronofly.Tests", "test\Cronofly.Tests\Cronofly.Tests.csproj", "{843B8308-8741-43D7-A098-0A999AA003CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "src\Data\Data.csproj", "{591AE36B-98C9-459B-8476-4752A7FE1EE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3354F6A-61C6-4E90-9B20-803CC1BFC080} = {3B7A8F51-6088-41EE-9A57-CAE2DE27DC04}
+		{408C53D4-F3AC-4E96-89F1-A09EE149DC01} = {12AC6485-514B-4B6E-B0F4-A9A8DA26FC5C}
+		{843B8308-8741-43D7-A098-0A999AA003CD} = {50641609-1E73-49A2-9E30-9F28C2C4B599}
+		{591AE36B-98C9-459B-8476-4752A7FE1EE2} = {12AC6485-514B-4B6E-B0F4-A9A8DA26FC5C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3354F6A-61C6-4E90-9B20-803CC1BFC080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3354F6A-61C6-4E90-9B20-803CC1BFC080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3354F6A-61C6-4E90-9B20-803CC1BFC080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3354F6A-61C6-4E90-9B20-803CC1BFC080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408C53D4-F3AC-4E96-89F1-A09EE149DC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408C53D4-F3AC-4E96-89F1-A09EE149DC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408C53D4-F3AC-4E96-89F1-A09EE149DC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408C53D4-F3AC-4E96-89F1-A09EE149DC01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{843B8308-8741-43D7-A098-0A999AA003CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843B8308-8741-43D7-A098-0A999AA003CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843B8308-8741-43D7-A098-0A999AA003CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843B8308-8741-43D7-A098-0A999AA003CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591AE36B-98C9-459B-8476-4752A7FE1EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591AE36B-98C9-459B-8476-4752A7FE1EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591AE36B-98C9-459B-8476-4752A7FE1EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591AE36B-98C9-459B-8476-4752A7FE1EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿@model Cronofly.Controllers.LinkShortening.SuccessResource
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Link: </h2><a href="@Html.ViewData.Model.ShortenedUrl">cronofly.com @Html.ViewData.Model.ShortenedUrl</a>
