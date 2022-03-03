@@ -31,7 +31,7 @@ Default output format [None]: json
 
 **Teardown local infrastructure**
 
-`dotnet cake --target=down`
+`dotnet cake --target=teardown`
 
 
 
